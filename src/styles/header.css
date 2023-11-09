@@ -1,0 +1,36 @@
+.profile__header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 5rem 2.5rem;
+  gap: 1.25rem;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+}
+
+.profile__username {
+  font-size: var(--title-size2);
+  font-weight: var(--font-weight1);
+  color: var(--color-grey-7);
+}
+
+.profile__image {
+  height: 5rem;
+  border-radius: 50%;
+  border: 2px solid var(--color-brand-1);
+}
+
+@media (min-width: 768px) {
+  .profile__header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

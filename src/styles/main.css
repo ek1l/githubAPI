@@ -1,0 +1,18 @@
+.index,
+.error {
+  display: flex;
+  flex-direction: column;
+  min-width: 100dvw;
+  min-height: 100dvh;
+}
+
+.error {
+  background-color: var(--color-grey-2);
+}
+
+@media (min-width: 768px) {
+  .index,
+  .error {
+    flex-direction: row;
+  }
+}

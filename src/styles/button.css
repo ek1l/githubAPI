@@ -1,0 +1,45 @@
+.index__section-second form button,
+.error__section-first button {
+  font-size: var(--text-size1);
+  font-weight: var(--font-weight3);
+  line-height: var(--line-height1);
+  background-color: var(--color-brand-2);
+  border-radius: 0.25rem;
+  padding: 0.625rem;
+  border: none;
+  color: var(--color-grey-7);
+  cursor: pointer;
+}
+
+.error__section-first button {
+  padding: 1.25rem;
+  font-size: var(--title-size3);
+}
+
+.index__section-second form button:hover,
+.error__section-first button:hover {
+  background-color: var(--color-brand-1);
+}
+
+.profile__change-user--button {
+  font-size: var(--text-size1);
+  font-weight: var(--font-weight2);
+  padding: 0.9rem 1.8rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 300px;
+  border: none;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--color-grey-7);
+  cursor: pointer;
+}
+
+.profile__change-user--button:hover {
+  background: var(--color-grey-1);
+}
+
+@media (min-width: 768px) {
+  .profile__header button {
+    width: auto;
+  }
+}
